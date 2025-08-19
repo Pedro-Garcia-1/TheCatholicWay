@@ -1,0 +1,194 @@
+body{
+    margin: 0px;
+    background: url(images/fundoclaro.jpg);
+}
+
+.cabecalho1{
+    height: 80px;
+    width: 70%;
+
+    border-width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    position: relative;
+    left: 15%;
+    margin-top: 80px;
+}
+
+.cabecalho2{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: -10px;
+    width: 70%;
+    height: 90%;
+    padding-bottom: 0;
+    position: relative;
+    left: 15%;
+    border-top: solid 3px #B12C00;
+    border-left: solid 3px #B12C00;
+    border-right: solid 3px #B12C00;
+}
+
+.corpo{
+    background-color: rgb(255, 255, 255);
+    height: 80%;
+    width: 70%;
+    position: relative;
+    left: 15%;
+    margin-bottom: 80px;
+    border-left: solid 3px #B12C00;
+    border-right: solid 3px #B12C00;
+    border-bottom: solid 3px #B12C00;
+    margin-top: 0;
+}
+.container{
+    margin-bottom: 0;
+}
+
+.tex1{
+    display: inline-block;
+    margin-top: 0;
+}
+
+h1{
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+p{
+    margin-bottom: 60px;
+    margin-top: 0;
+}
+.Logo{
+    height: 60px;
+    width: 40px;
+}
+.SA{
+    height: 100%;
+    width: 100%;
+    margin-bottom: 0;
+    border-bottom: 0;
+
+
+}
+.bonheur-royale-regular {
+  font-family: "Bonheur Royale", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.fonteB{
+    font-family: "Bodoni Moda", cursive;
+    font-size: 45pt;
+    color: #000000;
+    /* -webkit-text-stroke: 0.0000001px rgb(78, 35, 236); */
+    weight: 900;
+}
+.fonteC{
+    font-family: "Bonheur Royale", cursive;
+    font-size: 22pt;
+    color: #FFCC00;
+}
+
+.span1{
+    position: relative;
+    left: 1%;
+    top: 40px;
+    display: inline-block;
+    font-size: clamp(4px, 3vw, 21px);
+}
+
+.header2{
+   
+    position: relative;
+    left: 87%;
+    font-size: clamp(4px, 3vw, 21px);
+    color: #B12C00;
+}
+
+.b1{
+    position: relative;
+    left: 86%;
+    display: inline-block;
+    bottom: 61px;
+}
+
+.b2{
+    position: relative;
+    left: 130px;
+    display: inline-block;
+    bottom: 61px;
+}
+.header3{
+    position: relative;
+    left: 43%;
+    bottom: 118px;
+    display: inline-block;
+    font-size: clamp(4px, 3vw, 21px);
+}
+
+.bodoni-moda-<uniquifier> {
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.divisor{
+    color: #B12C00;
+}
+
+.textoApres{
+    
+}
+
+.divisoria{
+
+    border-width: 2px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    width: 11.5%;
+    border-color: #B12C00;
+    margin: 0;
+    position: relative;
+    left: 45%;
+    
+}
+
+.titulo{
+    text-align: center;
+    font-family: "Bodoni Moda", serif;
+    color: #B12C00;
+    margin: 0;
+}
+
+.margem{
+    margin-top: 10px;
+}
+.margem2{
+    margin-bottom: 10px;
+}
+
+.paragrafos{
+    font-family: "Bodoni Moda", serif;
+    position: relative;
+    left: 15%;
+    margin-top: 20px;
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+.letra1paragrafo{
+    font-family: "Bodoni Moda", serif;
+    font-size: 25px;
+    color: #B12C00;
+}
+
+.margem0{
+    margin-top: 10px;
+}
+.letra2paragrafo{
+    font-family: "Bodoni Moda", serif;
+    font-size: 22px;
+    color: #B12C00;
+}
