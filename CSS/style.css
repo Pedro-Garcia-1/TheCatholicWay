@@ -169,13 +169,19 @@ p{
     margin-bottom: 10px;
 }
 
+.corpo p{
+   
+}
+
 .paragrafos{
     font-family: "Bodoni Moda", serif;
     position: relative;
     left: 15%;
     margin-top: 20px;
-    font-size: large;
+    text-size-adjust: auto;
     margin-bottom: 20px;
+    font-size: 1.2vw;
+   
 }
 
 .letra1paragrafo{
@@ -189,6 +195,7 @@ p{
 }
 .letra2paragrafo{
     font-family: "Bodoni Moda", serif;
-    font-size: 22px;
+    font-size: 1.4vw;
     color: #B12C00;
 }
+
