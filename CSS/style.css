@@ -2,6 +2,10 @@ body{
     margin: 0px;
     background: url(images/fundoclaro.jpg);
 }
+/*<div> 1 Container ---------------------------------------------------------------------*/
+.container{
+    margin-bottom: 0;
+}
 
 .cabecalho1{
     height: 80px;
@@ -14,6 +18,45 @@ body{
     left: 15%;
     margin-top: 80px;
 }
+.span1{
+    position: relative;
+    left: 1%;
+    top: 40px;
+    display: inline-block;
+    font-size: 1.3vw;
+}
+.header2{
+   
+    position: relative;
+    left: 87%;
+    font-size: 1.3vw;
+    color: #B12C00;
+}
+.b1{
+    position: relative;
+    left: 86%;
+    display: inline-block;
+    bottom: 61px;
+}
+.divisor{
+    color: #B12C00;
+}
+.b2{
+    position: relative;
+    left: 130px;
+    display: inline-block;
+    bottom: 61px;
+}
+.header3{
+    position: relative;
+    left: 43%;
+    bottom: 118px;
+    display: inline-block;
+    font-size: 1.3vw;
+}
+/*<div> 1 Container -------------------------end <div> 1-----------------------------------*/
+/*==========================================================================================*/
+/*<div> 1 cabeçalho2 ---------------------------------------------------------------------*/
 
 .cabecalho2{
     text-align: center;
@@ -28,7 +71,15 @@ body{
     border-left: solid 3px #B12C00;
     border-right: solid 3px #B12C00;
 }
+.SA{
+    height: 100%;
+    width: 100%;
+    margin-bottom: 0;
+    border-bottom: 0;
 
+
+}
+/*<div> 1 cabeçalho2 ----------------------end cabeçalho2-----------------------------------*/
 .corpo{
     background-color: rgb(255, 255, 255);
     height: 80%;
@@ -41,9 +92,7 @@ body{
     border-bottom: solid 3px #B12C00;
     margin-top: 0;
 }
-.container{
-    margin-bottom: 0;
-}
+
 
 .tex1{
     display: inline-block;
@@ -59,86 +108,10 @@ p{
     margin-bottom: 60px;
     margin-top: 0;
 }
+
 .Logo{
     height: 60px;
     width: 40px;
-}
-.SA{
-    height: 100%;
-    width: 100%;
-    margin-bottom: 0;
-    border-bottom: 0;
-
-
-}
-.bonheur-royale-regular {
-  font-family: "Bonheur Royale", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-.fonteB{
-    font-family: "Bodoni Moda", cursive;
-    font-size: 45pt;
-    color: #000000;
-    /* -webkit-text-stroke: 0.0000001px rgb(78, 35, 236); */
-    weight: 900;
-}
-.fonteC{
-    font-family: "Bonheur Royale", cursive;
-    font-size: 22pt;
-    color: #FFCC00;
-}
-
-.span1{
-    position: relative;
-    left: 1%;
-    top: 40px;
-    display: inline-block;
-    font-size: 1.3vw;
-}
-
-.header2{
-   
-    position: relative;
-    left: 87%;
-    font-size: 1.3vw;
-    color: #B12C00;
-}
-
-.b1{
-    position: relative;
-    left: 86%;
-    display: inline-block;
-    bottom: 61px;
-}
-
-.b2{
-    position: relative;
-    left: 130px;
-    display: inline-block;
-    bottom: 61px;
-}
-.header3{
-    position: relative;
-    left: 43%;
-    bottom: 118px;
-    display: inline-block;
-    font-size: 1.3vw;
-}
-
-.bodoni-moda-<uniquifier> {
-  font-family: "Bodoni Moda", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-
-.divisor{
-    color: #B12C00;
-}
-
-.textoApres{
-    
 }
 
 .divisoria{
@@ -165,12 +138,9 @@ p{
 .margem{
     margin-top: 10px;
 }
+
 .margem2{
     margin-bottom: 10px;
-}
-
-.corpo p{
-   
 }
 
 .paragrafos{
@@ -193,9 +163,35 @@ p{
 .margem0{
     margin-top: 10px;
 }
+
 .letra2paragrafo{
     font-family: "Bodoni Moda", serif;
     font-size: 1.4vw;
     color: #B12C00;
+}
+
+/* Fontes -------------------------------------------------------------------*/
+.bonheur-royale-regular {
+  font-family: "Bonheur Royale", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.fonteB{
+    font-family: "Bodoni Moda", cursive;
+    font-size: 45pt;
+    color: #000000;
+    /* -webkit-text-stroke: 0.0000001px rgb(78, 35, 236); */
+    weight: 900;
+}
+.fonteC{
+    font-family: "Bonheur Royale", cursive;
+    font-size: 22pt;
+    color: #FFCC00;
+}
+.bodoni-moda-<uniquifier> {
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
