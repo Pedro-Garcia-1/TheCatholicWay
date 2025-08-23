@@ -275,7 +275,7 @@ a:visited{
     font-size: 15px;
     position: relative;
     top: 42px;
-    left: 18px;
+    left: 9px;
     color:#000000;
     }
     .card.about-text > a:visited{
@@ -283,7 +283,7 @@ a:visited{
     font-size: 15px;
     position: relative;
     top: 42px;
-    left: 18px;
+    left: 9px;
     color:#FFCC00;
     }
     .card.opinion-text > a:link{
@@ -291,7 +291,7 @@ a:visited{
     font-size: 15px;
     position: relative;
     top: 33px;
-    left: 28px;
+    left: 19px;
     color:#000000;
     }
     .card.opinion-text > a:visited{
@@ -299,7 +299,7 @@ a:visited{
     font-size: 15px;
     position: relative;
     top: 33px;
-    left: 28px;
+    left: 19px;
     color:#FFCC00;
     }
 
@@ -307,32 +307,32 @@ a:visited{
     text-align: center;
     font-size: 15px;
     position: relative;
-    top: 42px;
-    left: 7px;
+    top: 33px;
+    left: 13px;
     color:#000000;
     }
     .card.about-site-text > a.site-selector:visited{
     text-align: center;
     font-size: 15px;
     position: relative;
-    top: 42px;
-    left: 7px;
+    top: 33px;
+    left: 13px;
     color:#B12C00;
     }
     .card.about-site-text > a.no-selected-here:link{
     text-align: center;
     font-size: 15px;
     position: relative;
-    top: 42px;
-    left: 7px;
+    top: 33px;
+    left: 13px;
     color:#000000;
     }
     .card.about-site-text > a.no-selected-here:visited{
     text-align: center;
     font-size: 15px;
     position: relative;
-    top: 42px;
-    left: 7px;
+    top: 33px;
+    left: 13px;
     color:#FFCC00;
     }
     .card.about-text > a.about-writer-selected-page:link{
@@ -340,7 +340,7 @@ a:visited{
     font-size: 15px;
     position: relative;
     top: 42px;
-    left: 18px;
+    left: 9px;
     color:#000000;
     }
     .card.about-text > a.about-writer-selected-page:visited{
@@ -348,7 +348,7 @@ a:visited{
     font-size: 15px;
     position: relative;
     top: 42px;
-    left: 18px;
+    left: 9px;
     color:#B12C00;
     }
 
