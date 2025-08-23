@@ -34,9 +34,42 @@ body{
     font-family: "Bodoni Moda", serif;
     font-size: 20px;
     text-align: center;
+    text-decoration: none;
     position: relative;
     top: 40%;
 }
+.card > a{
+    position: relative;
+    left: 26%;
+}
+.card > .button-opinions{
+    position: relative;
+    left: 22%;
+}
+.card > a.site-selector:visited{
+    color: #B12C00;
+}
+a:link{
+    color: #000000;
+    font-family: "Bodoni Moda", serif;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    text-decoration: none;
+}
+a:visited{
+    color: #FFCC00;
+    font-family: "Bodoni Moda", serif;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    text-decoration: none;
+    
+ 
+}
+
 .separator-cell{
     font-size: 0;
 }
@@ -189,6 +222,37 @@ p{
     margin: 0px;
     background: url(images/fundoclaro.jpg);
     }
+/*.card > a{
+    position: relative;
+    left: 26%;
+}
+.card > .button-opinions{
+    position: relative;
+    left: 22%;
+}
+.card > a.site-selector:visited{
+    color: #B12C00;
+}
+a:link{
+    color: #000000;
+    font-family: "Bodoni Moda", serif;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    text-decoration: none;
+}
+a:visited{
+    color: #FFCC00;
+    font-family: "Bodoni Moda", serif;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    text-decoration: none;
+    
+ 
+}*/
     .container-flex{
         display: flex;
     }
@@ -200,13 +264,56 @@ p{
     .separator{
         flex: 0;
     }
-    .card > p{
+    .card.about-text > a:link{
     text-align: center;
     font-size: 15px;
     position: relative;
-    top: 30px;
-    color: #000000;
+    top: 42px;
+    left: 18px;
+    color:#000000;
     }
+    .card.about-text > a:visited{
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    top: 42px;
+    left: 18px;
+    color:#FFCC00;
+    }
+    .card.opinion-text > a:link{
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    top: 33px;
+    left: 28px;
+    color:#000000;
+    }
+    .card.opinion-text > a:visited{
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    top: 33px;
+    left: 28px;
+    color:#FFCC00;
+    }
+
+    .card.about-site-text > a.site-selector:link{
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    top: 42px;
+    left: 7px;
+    color:#000000;
+    }
+    .card.about-site-text > a.site-selector:link{
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    top: 42px;
+    left: 7px;
+    color:#B12C00;
+    }
+
     .separator-cell{
         padding-left: 5px;
         padding-right: 5px;
